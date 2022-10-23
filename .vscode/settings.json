@@ -1,5 +1,6 @@
 {
     "cSpell.userWords": ["pinia", "persistedstate", "primevue", "colorpicker"],
     "editor.formatOnSave": true,
-    "cSpell.words": ["inputtext", "primeicons"]
+    "cSpell.words": ["dialogservice", "dynamicdialog", "inputtext", "primeicons", "tailwindcss", "usedialog"],
+    "editor.tabSize": 4
 }

@@ -9,30 +9,23 @@
                 <InputText id="password" v-model="formData.password" type="password" autocomplete="off" />
                 <label for="password">Password</label>
             </span>
-            <Button label="Submit" class="p-button-success" />
+            <Button label="Submit" class="p-button-success" type="submit" />
         </form>
     </div>
 </template>
 
 <script lang="ts">
 import { defineComponent, ref } from 'vue';
-import InputText from 'primevue/inputtext';
-import Button from 'primevue/button';
 
 export default defineComponent({
     name: 'LoginForm',
-    components: {
-        InputText,
-        Button,
-    },
     setup() {
         const formData = ref<{ email: string; password: string }>({
             email: '',
             password: '',
         });
-
-        const submit = () => {
-            console.log('abv');
+        const submit = async () => {
+            console.log('submit');
         };
 
         return {

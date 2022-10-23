@@ -1,7 +1,7 @@
 import { defineStore } from 'pinia';
 import { ref } from 'vue';
 
-export const authenticationStore = defineStore('authentication', () => {
+export const useAuthenticationController = defineStore('authentication', () => {
     const isLogin = ref(false);
     function login(): void {
         isLogin.value = true;

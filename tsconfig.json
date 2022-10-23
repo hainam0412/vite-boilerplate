@@ -17,12 +17,13 @@
             "@/*": ["src/*"],
             "@asset/*": ["src/asset/*"],
             "@component/*": ["src/component/*"],
-            "@store/*": ["src/store/*"],
+            "@store/*": ["src/controller/*"],
             "@style/*": ["src/style/*"],
             "@type/*": ["src/type/*"],
             "@utils/*": ["src/utils/*"],
             "@router/*": ["src/router/*"],
-            "@page/*": ["src/page/*"]
+            "@page/*": ["src/page/*"],
+            "@controller/*": ["src/controller/*"]
         }
     },
     "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"],
